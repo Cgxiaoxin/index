@@ -909,7 +909,46 @@
             <div class="section" id="projects" data-aos="fade-up" data-aos-delay="400">
                 <h2><i class="ri-folder-line"></i>项目经历</h2>
                 <div class="project-item" data-aos="fade-right">
-                    <h3>智慧农业数字化项目（天卫科技+农业局合作）</h3>
+                    <h3>文生行动机器人系统</h3>
+                    <p class="date"><i class="ri-calendar-line"></i>2025-02 至 2025-05</p>
+                    <p><span class="highlight-text">项目描述：</span>基于机械臂开发融合语音、视觉与控制的集成系统，实现人类语言指令理解与物品抓取。</p>
+                    <p><span class="highlight-text">负责模块：</span></p>
+                    <ul class="custom-list">
+                        <li>主导构建端到端语音交互系统，集成自研唤醒词检测+多语言ASR（Dolphin）+ LLM指令解析（Qwen+LoRA），替代原有讯飞API+jieba分词方案，实现自然语言→控制指令的精准转换</li>
+                        <li>优化YOLO目标检测模型，结合TensorRT量化与C++推理引擎，实现FP32→FP16量化，模型体积下降40%，推理速度达80+FPS，识别精度93.6%</li>
+                        <li>设计手眼标定+九点标定融合方案，实现机械臂轨迹实时绘制与精准控制，构建完整“感知-决策-执行”机器人闭环系统</li>
+                    </ul>
+                    <p><span class="highlight-text">主要成果：</span>实现目标检测模型93.6%识别精度+低延迟运动轨迹实时显示，自研可商用语音交互机械臂控制系统，高性能、低延迟；构建端到端语音控制闭环，实现指令识别→解析→执行的毫秒级响应。</p>
+                    <p><span class="highlight-text">核心技术：</span>
+                        <span class="tech-tag">VLM</span>
+                        <span class="tech-tag">ASR/TTS</span>
+                        <span class="tech-tag">YOLO</span>
+                        <span class="tech-tag">TensorRT</span>
+                        <span class="tech-tag">LoRA</span>
+                    </p>
+                </div>
+                
+                <div class="project-item" data-aos="fade-right" data-aos-delay="25">
+                    <h3>智能小佰AI助手平台</h3>
+                    <p class="date"><i class="ri-calendar-line"></i>2025-05 至 2025-08</p>
+                    <p><span class="highlight-text">项目描述：</span>带队统筹“文生行动+具身智能”及智能助理项目，主导技术架构设计与端到端算法落地。</p>
+                    <ul class="custom-list">
+                        <li>技术攻关：整合多模态VLM、SLAM及3D视觉技术，构建从感知到执行的完整链路，实现机器人复杂任务处理</li>
+                        <li>模型工程：负责Qwen/DeepSeek等大模型微调（LoRA/指令微调）与vLLM高性能部署，预研并转化VLA等前沿算法</li>
+                        <li>配合团队开展模仿学习实验，负责多场景下的高质量数据采集与整理，保障模型训练数据的规范性与多样性</li>
+                        <li>独立负责机械臂示教器软件的开发与迭代，实现运动控制与状态监测功能，并根据测试反馈持续优化交互逻辑</li>
+                    </ul>
+                    <p><span class="highlight-text">核心技术：</span>
+                        <span class="tech-tag">VLM</span>
+                        <span class="tech-tag">SLAM</span>
+                        <span class="tech-tag">vLLM</span>
+                        <span class="tech-tag">LoRA</span>
+                        <span class="tech-tag">Isaac Sim</span>
+                    </p>
+                </div>
+                
+                <div class="project-item" data-aos="fade-right" data-aos-delay="50">
+                    <h3>基于国产高分卫星大棚语义分割算法研究（天卫科技+农业局合作）</h3>
                     <p class="date"><i class="ri-calendar-line"></i>2024-02 至 2025-02</p>
                     <p><span class="highlight-text">核心技术：</span>
                         <span class="tech-tag" data-aos="zoom-in">GIS数据处理</span>
@@ -962,9 +1001,11 @@
             <div class="section" id="publications" data-aos="fade-up" data-aos-delay="500">
                 <h2><i class="ri-file-paper-line"></i>科研成果</h2>
                 <ul class="custom-list">
-                    <li>Research on Agricultural Shed Extraction Based on Jilin-b High-Resolution Satellite（CCVIDL 2025 已出版）</li>
-                    <li>厦门高精农业数字平台  软著（在研）</li>
-                    <li>基于国产高分卫星遥感大棚地块分割提取方法  科研项目主持（2024.10-至今，3k，项目负责人）</li>
+                    <li>G. Chen, H. Luan and X. Zhang, "A Multi-Scale Attention U-Net for Extracting Agricultural Greenhouses from Very High Resolution Imagery," 2025 4th International Conference on Computer Vision, Image and Deep Learning (CVIDL), Ningbo, China, 2025, pp. 01-06.（CVIDL 2025 已出版）</li>
+                    <li>《一种融合知识蒸馏的遥感影像分割域泛化方法》专利一项</li>
+                    <li>基于国产高分卫星遥感大棚地块分割提取方法（编号：YKJCX，经费：2k，已结题）</li>
+                    <li>厦门高精农业数字平台 软著（在研）</li>
+                    <li>SCI 期刊论文一篇（待投递）</li>
                 </ul>
             </div>
             
@@ -1005,7 +1046,10 @@
                 <p>具备良好的英语听说读写能力，能够快速浏览并理解英语文献、专业资料和技术文档，有效沟通和协作</p>
                 
                 <h3>思维与自驱力</h3>
-                <p>拥有较强的发散性思维与自驱力，敢于提出新思路并付诸实践。积累了几次创业经历，擅长快速响应市场需求并解决问题</p>
+                <p>拥有较强的发散性思维与自驱力，敢于提出新思路并付诸实践，擅长快速响应市场需求并解决问题</p>
+                
+                <h3>自我评价</h3>
+                <p>具备全链路开发及独立落地能力，精通从数据挖掘到模型部署的全流程；具备优秀的项目管理潜质，曾带队完成项目攻坚。坚持前沿技术深耕与开源输出，心态积极且抗压性强，擅长在快节奏环境下通过系统性学习与主动探索交付最优解。</p>
                 
                 <h3>持续学习与健康生活</h3>
                 <p>良好的生活规律，注重持续学习和定期运动，相信健康的作息能保持充沛的精力，帮助提升工作效率与创造力</p>
